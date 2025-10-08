@@ -10,7 +10,7 @@ namespace TheCommunityFestival.Editor
     public static class KarmaSetupUtility
     {
         [MenuItem("Community/Setup/Create Karma System")]
-        public static void CreateKarmaSystem()
+        public static GameObject CreateKarmaSystem()
         {
             Debug.Log("[Karma] Setting up Karma System...");
 
@@ -58,6 +58,8 @@ namespace TheCommunityFestival.Editor
             Selection.activeGameObject = karmaManager.gameObject;
             Debug.Log("[Karma] Karma System setup complete!");
             Debug.Log("[Karma] Use Context Menu (right-click KarmaManager) to test karma actions");
+            
+            return karmaManager.gameObject;
         }
 
         private static void CreateKarmaParticles()

@@ -10,7 +10,7 @@ namespace TheCommunityFestival.Editor
     public static class EnvironmentSetupUtility
     {
         [MenuItem("Community/Setup/Create Festival Environment")]
-        public static void CreateFestivalEnvironment()
+        public static GameObject CreateFestivalEnvironment()
         {
             Debug.Log("[Environment] Creating festival environment...");
 
@@ -27,6 +27,8 @@ namespace TheCommunityFestival.Editor
             Selection.activeGameObject = envManager;
 
             Debug.Log("[Environment] Festival environment created! Configure terrain details in the inspector.");
+            
+            return terrainObj;
         }
 
         private static GameObject CreateTerrain()
