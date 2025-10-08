@@ -1,4 +1,4 @@
-# 🌟 Lumina Festival
+# 🌟 The Community Festival
 
 **A visually stunning, karma-based multiplayer festival simulation**
 
@@ -6,7 +6,7 @@
 
 ## 🎯 About
 
-Lumina Festival is an emotionally meaningful game where you build, volunteer, and attend a beautiful nonprofit electronic music festival. Through karma-based gameplay, players learn the value of kindness, community, and positive action while experiencing quality underground music culture.
+The Community Festival is an emotionally meaningful game where you build, volunteer, and attend a beautiful nonprofit electronic music festival. Through karma-based gameplay, players learn the value of kindness, community, and positive action while experiencing quality underground music culture.
 
 ---
 
@@ -88,7 +88,7 @@ Lumina Festival is an emotionally meaningful game where you build, volunteer, an
 
 ## 🌟 The Vision
 
-Lumina Festival is more than a game - it's:
+The Community Festival is more than a game - it's:
 
 - 🧘 **A digital meditation garden** that creates calm
 - 📖 **A teacher of values** through beautiful gameplay

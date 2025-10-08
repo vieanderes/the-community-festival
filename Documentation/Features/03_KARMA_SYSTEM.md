@@ -2,7 +2,7 @@
 
 ## 🎯 Overview
 
-The heart of Lumina Festival - a system that tracks player actions, influences world responsiveness, creates visual feedback, and teaches real-life values through meaningful gameplay consequences.
+The heart of The Community Festival - a system that tracks player actions, influences world responsiveness, creates visual feedback, and teaches real-life values through meaningful gameplay consequences.
 
 ---
 
@@ -57,7 +57,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace LuminaFestival.Core.Systems
+namespace TheCommunityFestival.Core.Systems
 {
     /// <summary>
     /// Stores all karma-related data for a player
@@ -233,7 +233,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using LuminaFestival.Core.Systems;
 
-namespace LuminaFestival.Core
+namespace TheCommunityFestival.Core
 {
     /// <summary>
     /// Central manager for all karma-related operations
@@ -532,10 +532,10 @@ Create: `Assets/_Project/Scripts/Gameplay/World/KarmaVisualFeedback.cs`
 
 ```csharp
 using UnityEngine;
-using LuminaFestival.Core;
-using LuminaFestival.Core.Systems;
+using TheCommunityFestival.Core;
+using TheCommunityFestival.Core.Systems;
 
-namespace LuminaFestival.Gameplay.World
+namespace TheCommunityFestival.Gameplay.World
 {
     /// <summary>
     /// Provides visual feedback based on karma level

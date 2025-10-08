@@ -1,8 +1,8 @@
-# LUMINA FESTIVAL - Master Implementation Plan
+# THE COMMUNITY FESTIVAL - Master Implementation Plan
 
 ## 🎯 Project Overview
 
-**Game Title:** Lumina Festival  
+**Game Title:** The Community Festival  
 **Genre:** Community-Driven Festival Simulation / Social Karma Game  
 **Platform:** macOS (Apple Silicon M1 Pro optimized)  
 **Engine:** Unity 2023.3 LTS  
@@ -50,7 +50,7 @@ A visually stunning, karma-based multiplayer festival simulation where players b
 ## 📦 Project Structure
 
 ```
-LuminaFestival/
+TheCommunityFestival/
 ├── Assets/
 │   ├── _Project/
 │   │   ├── Art/

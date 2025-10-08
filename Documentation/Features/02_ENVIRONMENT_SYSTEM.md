@@ -131,7 +131,7 @@ Create: `Assets/_Project/Scripts/Gameplay/World/TerrainManager.cs`
 ```csharp
 using UnityEngine;
 
-namespace LuminaFestival.Gameplay.World
+namespace TheCommunityFestival.Gameplay.World
 {
     /// <summary>
     /// Manages terrain details, LOD, and performance optimization
@@ -283,7 +283,7 @@ Create: `Assets/_Project/Scripts/Gameplay/World/VegetationManager.cs`
 ```csharp
 using UnityEngine;
 
-namespace LuminaFestival.Gameplay.World
+namespace TheCommunityFestival.Gameplay.World
 {
     /// <summary>
     /// Manages grass, flowers, and detail vegetation
@@ -428,7 +428,7 @@ Create: `Assets/_Project/Scripts/Gameplay/World/WaterSystem.cs`
 ```csharp
 using UnityEngine;
 
-namespace LuminaFestival.Gameplay.World
+namespace TheCommunityFestival.Gameplay.World
 {
     /// <summary>
     /// Animates water surface with waves and ripples
@@ -518,7 +518,7 @@ Create: `Assets/_Project/Scripts/Gameplay/World/TimeOfDaySystem.cs`
 ```csharp
 using UnityEngine;
 
-namespace LuminaFestival.Gameplay.World
+namespace TheCommunityFestival.Gameplay.World
 {
     /// <summary>
     /// Controls time of day, sun/moon rotation, and lighting changes
@@ -673,7 +673,7 @@ Create: `Assets/_Project/Scripts/Gameplay/World/WeatherSystem.cs`
 ```csharp
 using UnityEngine;
 
-namespace LuminaFestival.Gameplay.World
+namespace TheCommunityFestival.Gameplay.World
 {
     /// <summary>
     /// Controls weather effects (rain, clouds, fog)

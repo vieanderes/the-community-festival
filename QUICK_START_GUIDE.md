@@ -1,4 +1,4 @@
-# LUMINA FESTIVAL - Quick Start Guide
+# THE COMMUNITY FESTIVAL - Quick Start Guide
 
 ## 🎯 Welcome, Developer!
 

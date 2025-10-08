@@ -56,12 +56,12 @@ using UnityEngine;
 using System;
 using System.Collections.Generic;
 
-namespace LuminaFestival.Data
+namespace TheCommunityFestival.Data
 {
     /// <summary>
     /// ScriptableObject defining a character's permanent traits
     /// </summary>
-    [CreateAssetMenu(fileName = "Character_", menuName = "Lumina/Character Profile")]
+    [CreateAssetMenu(fileName = "Character_", menuName = "Community/Character Profile")]
     public class CharacterProfile : ScriptableObject
     {
         [Header("Identity")]
@@ -125,10 +125,10 @@ Create: `Assets/_Project/Scripts/AI/AICharacter.cs`
 using UnityEngine;
 using UnityEngine.AI;
 using System.Collections.Generic;
-using LuminaFestival.Data;
-using LuminaFestival.Core;
+using TheCommunityFestival.Data;
+using TheCommunityFestival.Core;
 
-namespace LuminaFestival.AI
+namespace TheCommunityFestival.AI
 {
     /// <summary>
     /// Runtime instance of an AI character
@@ -510,10 +510,10 @@ Create: `Assets/_Project/Scripts/AI/HelperAI.cs`
 
 ```csharp
 using UnityEngine;
-using LuminaFestival.Core;
-using LuminaFestival.Core.Systems;
+using TheCommunityFestival.Core;
+using TheCommunityFestival.Core.Systems;
 
-namespace LuminaFestival.AI
+namespace TheCommunityFestival.AI
 {
     /// <summary>
     /// Special AI that appears to guide players toward positive actions

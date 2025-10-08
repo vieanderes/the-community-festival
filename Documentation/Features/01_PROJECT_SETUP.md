@@ -54,8 +54,8 @@ Initial Unity project setup optimized for Apple Silicon M1 Pro with 16GB RAM. Th
 2. Click "New Project"
 3. Select Unity 2023.3.15f1
 4. Choose "3D (URP)" template
-5. Project Name: `LuminaFestival`
-6. Location: `/Users/vie/Projects/my-first-game/`
+5. Project Name: `TheCommunityFestival`
+6. Location: `/Users/vie/Projects/the-festival-community/`
 7. Click "Create Project"
 
 **Why URP (Universal Render Pipeline)?**
@@ -124,7 +124,7 @@ Create three quality presets:
 **File → Project Settings → Player**
 
 **Company Name:** Your name/studio
-**Product Name:** Lumina Festival
+**Product Name:** The Community Festival
 **Version:** 0.1.0
 **Default Icon:** (Will add later)
 
@@ -519,7 +519,7 @@ Create: `Assets/_Project/Scripts/Core/Managers/GameManager.cs`
 ```csharp
 using UnityEngine;
 
-namespace LuminaFestival.Core
+namespace TheCommunityFestival.Core
 {
     /// <summary>
     /// Main game manager - singleton that persists across scenes
@@ -690,7 +690,7 @@ Create: `Assets/_Project/Scripts/Core/Utilities/Singleton.cs`
 ```csharp
 using UnityEngine;
 
-namespace LuminaFestival.Core
+namespace TheCommunityFestival.Core
 {
     /// <summary>
     /// Generic singleton pattern for MonoBehaviour classes
@@ -867,16 +867,16 @@ crashlytics-build.properties
 **Initialize Git:**
 
 ```bash
-cd /Users/vie/Projects/my-first-game
+cd /Users/vie/Projects/the-festival-community
 git init
 git add .
-git commit -m "Initial project setup - Lumina Festival v0.1.0"
+git commit -m "Initial project setup - The Community Festival v0.1.0"
 ```
 
 **Create README.md:**
 
 ```markdown
-# Lumina Festival
+# The Community Festival
 
 A visually stunning, karma-based multiplayer festival simulation game.
 

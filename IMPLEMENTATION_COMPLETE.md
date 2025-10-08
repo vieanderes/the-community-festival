@@ -1,8 +1,8 @@
-# ✅ LUMINA FESTIVAL - Implementation Plan Complete!
+# ✅ THE COMMUNITY FESTIVAL - Implementation Plan Complete!
 
 ## 🎉 Congratulations!
 
-You now have a **complete, feature-rich implementation plan** for building Lumina Festival - an emotionally meaningful, visually stunning festival simulation game.
+You now have a **complete, feature-rich implementation plan** for building The Community Festival - an emotionally meaningful, visually stunning festival simulation game.
 
 ---
 
@@ -41,7 +41,7 @@ You now have a **complete, feature-rich implementation plan** for building Lumin
 
 ## 🎯 What This Game Will Be
 
-**Lumina Festival** combines:
+**The Community Festival** combines:
 
 ### 🎨 Visual Beauty
 - Photorealistic natural environments
@@ -320,7 +320,7 @@ This isn't just another game. This is:
 
 *Created: October 8, 2025*  
 *Developer: vie*  
-*Project: Lumina Festival*  
+*Project: The Community Festival*  
 *Status: Implementation plan complete, ready to build*  
 
 **Let's make this dream a reality! 🎉🌟🎵**

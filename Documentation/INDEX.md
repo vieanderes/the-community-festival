@@ -1,4 +1,4 @@
-# 📚 Lumina Festival - Documentation Index
+# 📚 The Community Festival - Documentation Index
 
 Complete guide to all project documentation.
 
@@ -355,5 +355,5 @@ For questions or clarification:
 *Documentation Version: 1.0*  
 *Total Pages: 15+ comprehensive guides*
 
-**Everything you need to build Lumina Festival is here. Let's create something beautiful! ✨**
+**Everything you need to build The Community Festival is here. Let's create something beautiful! ✨**
 
