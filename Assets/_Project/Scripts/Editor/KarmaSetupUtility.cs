@@ -24,7 +24,7 @@ namespace TheCommunityFestival.Editor
             }
 
             // Add KarmaManager
-            Core.KarmaManager karmaManager = Object.FindObjectOfType<Core.KarmaManager>();
+            Core.KarmaManager karmaManager = Object.FindFirstObjectByType<Core.KarmaManager>();
             if (karmaManager == null)
             {
                 GameObject karmaObj = new GameObject("KarmaManager");
@@ -33,14 +33,14 @@ namespace TheCommunityFestival.Editor
             }
 
             // Add visual feedback system to environment
-            Gameplay.World.KarmaVisualFeedback feedback = Object.FindObjectOfType<Gameplay.World.KarmaVisualFeedback>();
+            Gameplay.World.KarmaVisualFeedback feedback = Object.FindFirstObjectByType<Gameplay.World.KarmaVisualFeedback>();
             if (feedback == null)
             {
                 GameObject feedbackObj = new GameObject("KarmaVisualFeedback");
                 feedback = feedbackObj.AddComponent<Gameplay.World.KarmaVisualFeedback>();
                 
                 // Try to find and assign references
-                Light mainLight = Object.FindObjectOfType<Light>();
+                Light mainLight = Object.FindFirstObjectByType<Light>();
                 if (mainLight != null && mainLight.type == LightType.Directional)
                 {
                     SerializedObject so = new SerializedObject(feedback);
@@ -109,7 +109,7 @@ namespace TheCommunityFestival.Editor
             }
 
             // Assign to KarmaVisualFeedback
-            Gameplay.World.KarmaVisualFeedback feedback = Object.FindObjectOfType<Gameplay.World.KarmaVisualFeedback>();
+            Gameplay.World.KarmaVisualFeedback feedback = Object.FindFirstObjectByType<Gameplay.World.KarmaVisualFeedback>();
             if (feedback != null)
             {
                 SerializedObject so = new SerializedObject(feedback);
@@ -124,7 +124,7 @@ namespace TheCommunityFestival.Editor
         [MenuItem("Community/Test/Add Positive Karma")]
         public static void TestAddPositiveKarma()
         {
-            Core.KarmaManager km = Object.FindObjectOfType<Core.KarmaManager>();
+            Core.KarmaManager km = Object.FindFirstObjectByType<Core.KarmaManager>();
             if (km != null)
             {
                 km.AddKarma(Core.Systems.KarmaActionType.Helping, "Test - Helped someone");
@@ -139,7 +139,7 @@ namespace TheCommunityFestival.Editor
         [MenuItem("Community/Test/Add Negative Karma")]
         public static void TestAddNegativeKarma()
         {
-            Core.KarmaManager km = Object.FindObjectOfType<Core.KarmaManager>();
+            Core.KarmaManager km = Object.FindFirstObjectByType<Core.KarmaManager>();
             if (km != null)
             {
                 km.AddKarma(Core.Systems.KarmaActionType.Ignoring, "Test - Ignored someone in need");

@@ -16,7 +16,7 @@ namespace TheCommunityFestival.Core
             {
                 if (_instance == null)
                 {
-                    _instance = FindObjectOfType<GameManager>();
+                    _instance = FindFirstObjectByType<GameManager>();
                     if (_instance == null)
                     {
                         GameObject go = new GameObject("GameManager");

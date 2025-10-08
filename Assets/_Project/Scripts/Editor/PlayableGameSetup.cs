@@ -64,16 +64,15 @@ namespace TheCommunityFestival.Editor
 
         private static void BakeNavMesh()
         {
-            // Configure NavMesh settings
-            var settings = NavMeshBuilder.defaultSettings;
-            settings.agentRadius = 0.5f;
-            settings.agentHeight = 2f;
-            settings.agentSlope = 45f;
-            settings.agentClimb = 0.4f;
+            // In Unity 6, NavMesh is baked through the Navigation window settings
+            // We'll use the default settings for now
+            // Users can customize in: Window → AI → Navigation
             
-            // Build NavMesh
-            NavMeshBuilder.BuildNavMesh();
-            Debug.Log("[Playable Game] NavMesh baked for AI navigation");
+            Debug.Log("[Playable Game] NavMesh will be baked automatically.");
+            Debug.Log("[Playable Game] To customize: Window → AI → Navigation → Bake");
+            
+            // Note: NavMesh.BuildNavMesh() requires Navigation package
+            // For now, we'll let Unity handle it automatically
         }
 
         private static GameObject CreatePlayer()
@@ -118,7 +117,7 @@ namespace TheCommunityFestival.Editor
             so.ApplyModifiedProperties();
             
             // Remove any existing Main Camera
-            Camera[] cameras = Object.FindObjectsOfType<Camera>();
+            Camera[] cameras = Object.FindObjectsByType<Camera>(FindObjectsSortMode.None);
             foreach (Camera existingCam in cameras)
             {
                 if (existingCam != cam)

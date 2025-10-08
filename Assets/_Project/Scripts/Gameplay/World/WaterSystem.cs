@@ -15,7 +15,7 @@ namespace TheCommunityFestival.Gameplay.World
         [SerializeField] private float _waveScale = 0.2f;
 
         [Header("Reflection")]
-        [SerializeField] private bool _enableReflection = true;
+        [SerializeField] private bool _enableReflection = true; // Reserved for future reflection system
 
         private Vector2 _offset;
 

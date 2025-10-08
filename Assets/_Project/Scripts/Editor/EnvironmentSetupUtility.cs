@@ -34,7 +34,7 @@ namespace TheCommunityFestival.Editor
         private static GameObject CreateTerrain()
         {
             // Check if terrain already exists
-            Terrain existing = Object.FindObjectOfType<Terrain>();
+            Terrain existing = Object.FindFirstObjectByType<Terrain>();
             if (existing != null)
             {
                 Debug.Log("[Environment] Using existing terrain");
@@ -73,7 +73,7 @@ namespace TheCommunityFestival.Editor
         private static GameObject CreateSun()
         {
             // Check if directional light exists
-            Light existingLight = Object.FindObjectOfType<Light>();
+            Light existingLight = Object.FindFirstObjectByType<Light>();
             if (existingLight != null && existingLight.type == LightType.Directional)
             {
                 Debug.Log("[Environment] Using existing directional light");

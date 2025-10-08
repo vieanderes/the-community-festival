@@ -99,7 +99,7 @@ namespace TheCommunityFestival.UI
             {
                 if (_instance == null)
                 {
-                    _instance = FindObjectOfType<SimpleInteractionUI>();
+                    _instance = FindFirstObjectByType<SimpleInteractionUI>();
                 }
                 return _instance;
             }

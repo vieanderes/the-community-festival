@@ -12,8 +12,8 @@ namespace TheCommunityFestival.Gameplay.World
         [SerializeField] private Terrain _terrain;
 
         [Header("Distribution")]
-        [SerializeField] private float _grassDensity = 0.7f;
-        [SerializeField] private float _flowerDensity = 0.3f;
+        [SerializeField] private float _grassDensity = 0.7f; // Reserved for future use
+        [SerializeField] private float _flowerDensity = 0.3f; // Reserved for future use
 
         [Header("Wind")]
         [SerializeField] private float _windSpeed = 0.5f;
