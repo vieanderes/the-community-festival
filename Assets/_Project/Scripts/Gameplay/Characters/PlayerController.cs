@@ -64,8 +64,9 @@ namespace TheCommunityFestival.Gameplay.Characters
             HandleCamera();
             HandleInteraction();
             
-            // Toggle cursor lock
-            if (Input.GetKeyDown(KeyCode.Escape))
+            // Toggle cursor lock with Keyboard class (Input System)
+            if (UnityEngine.InputSystem.Keyboard.current != null && 
+                UnityEngine.InputSystem.Keyboard.current.escapeKey.wasPressedThisFrame)
             {
                 ToggleCursorLock();
             }
